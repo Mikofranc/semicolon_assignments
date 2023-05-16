@@ -5,10 +5,10 @@ public class CheckIfElementIsPresent {
         int availableNo = 100;
         int noOfInteration =1;
         int checkIfPresent =0;
-        checkForSimilariElements(numbers, loopNo, availableNo, checkIfPresent);
+        checkForSimilarElements(numbers, loopNo, availableNo, checkIfPresent);
     }
 
-    private static void checkForSimilariElements(int[] numbers, int[] loopNo, int availableNo, int checkIfPresent) {
+    private static void checkForSimilarElements(int[] numbers, int[] loopNo, int availableNo, int checkIfPresent) {
         for(int index = 0; index < numbers.length; index++){
             loopNo[index] = numbers[index];
             if(loopNo[index] == availableNo){
